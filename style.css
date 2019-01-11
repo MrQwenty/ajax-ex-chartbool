@@ -3,3 +3,29 @@
   padding: 0;
   box-sizing:border-box;
 }
+.linecontainer, .piecontainer {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.linecontainer, .piecontainer {
+  margin-top: 100px;
+  float: left;
+}
+
+select {
+  font-size: 15px;
+  margin: 0 20px;
+}
+
+#button {
+  font-size: 20px;
+  color: white;
+  background: red;
+  margin-left: 15px;
+}
+
+#type-text {
+  padding: 10px;
+  font-size: 20px;
+}

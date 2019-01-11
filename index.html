@@ -2,14 +2,32 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js" charset="utf-8"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" charset="utf-8"></script>
-    <title>chartbool</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.23.0/moment.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title></title>
   </head>
+  <h1>CHARTBOOL</h1>
   <body>
-    <div class="container">
-      <canvas id="SalesChart"></canvas>
+    <select class="mymonthselect" name="">
 
+
+    </select>
+    <select class="mynameselect" name="">
+
+    </select>
+    <input id="type-text" type="text" name="" value="" placeholder="aggiorna valore">
+    <button id="button" type="button" name="button">Aggiorna</button>
+    <div class="linecontainer">
+      <canvas id="line"></canvas>
+
+
+    </div>
+    <div class="piecontainer">
+        <canvas id="pie"></canvas>
+    </div>
+
+    <script src="main.js" charset="utf-8"></script>
   </body>
-  <script src="main.js" charset="utf-8"></script>
 </html>
